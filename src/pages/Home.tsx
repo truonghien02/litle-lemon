@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const menus = [
   {
@@ -31,9 +32,12 @@ const Home = () => {
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-          <button className="bg-[#F4CE14] px-6 py-3 w-fit rounded-xl text-black font-bold">
+          <Link
+            className="bg-[#F4CE14] px-6 py-3 w-fit rounded-xl text-black font-bold"
+            to="/reservation"
+          >
             Reserve a table
-          </button>
+          </Link>
         </div>
         <div>
           <img src="/images/Rectangle-8.png" alt="little-lemon" />
