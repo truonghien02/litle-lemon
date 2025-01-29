@@ -45,7 +45,7 @@ const Home = () => {
       </section>
 
       <section>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-4 grid-cols-1">
           {menus.map((menu, index) => (
             <div key={index} className="flex flex-col shadow-xl rounded-lg">
               <img

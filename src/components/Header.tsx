@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <header className="h-28 flex items-center justify-between p-6 sticky top-0 bg-white border-b-2 border-solid border-gray-400">
+    <header className="flex items-center justify-between p-6 sticky top-0 bg-white border-b-2 border-solid border-gray-400 flex-col md:flex-row">
       <img src="/images/logo.svg" alt="logo little lemon" className="w-64" />
       <nav>
         <ul className="flex gap-6">
